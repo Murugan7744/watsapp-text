@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(min-width:320px){
+    .icon>i{
+        margin-left: 5px;
+      }
+      .page {
+        width: 100%;
+      }
+    }
+
+@media(min-width:620px){
+    .icon>i{
+        margin-left: 10px;
+      }  
+ }
+    
+@media(min-width:1000px){
+  .icon>i{
+    margin-left: 10px;
+  }
+}
+#whatapp{
+    background-image: url("../images/watsapp1.jpeg");
+    height: 100vh;
+    overflow:scroll;
+}
+
+.icon i{
+    color:#ffff;
+    font-size:35px;
+ 
+   
+   
+}
+.message{
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 25%;
+    width: 50%;
+    margin: auto;
+    
+}
+.page {
+    width: 100%;
+    padding: 10px;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.out{
+    border: 3px solid #F5F7D0;
+    background-color: #F5F7D0;
+    color: #060606;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 20%;
+    display: flex;
+    overflow:hidden;
+    align-items: flex-end;
+}
+.type{
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content:flex-end ;
+    font-size:20px;
+    color:#060606;
+    width:100%;
+
+}
